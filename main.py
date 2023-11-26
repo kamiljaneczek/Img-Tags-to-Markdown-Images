@@ -2,7 +2,7 @@ import pathlib
 import re
 from pathlib import Path
 
-# this script changes img  HTML tags to ![[]]
+# This script changes img  HTML tags to ![[]]
 # Useful to run after conversion of notes from One Note to markdown with Pandoc
 
 RootFolder: Path = pathlib.Path("C:/Users/janek/Desktop/test")
